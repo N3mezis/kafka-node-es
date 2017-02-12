@@ -1,0 +1,19 @@
+{
+  "name": "kafka-node-es",
+  "version": "0.0.1",
+  "description": "kafka-node enhancement suite. Provides convenience methods + utils",
+  "main": "knes.js",
+  "author": "Jan Schalkamp",
+  "private": false,
+  "license": "MIT",
+  "dependencies": {
+    "kafka-node": "^1.3.4",
+    "avro-registry": "^0.0.3",
+    "avsc": "^4.1.11",
+    "q": "^1.4.1",
+    "uuid": "^3.0.1"
+  },
+  "scripts": {
+    "start": "node knes.js"
+  }
+}

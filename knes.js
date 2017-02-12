@@ -1,0 +1,1 @@
+module.exports.Topic = require('./lib/topic.js');
